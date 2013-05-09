@@ -1,4 +1,3 @@
 class people::willhoit {
-	notify { 'class people::willhoit declared': }
-  #include mou
+  notify { 'class people::willhoit declared' }
 }
