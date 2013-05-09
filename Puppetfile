@@ -35,3 +35,4 @@ github "sudo",     "1.0.0"
 # https://github.com/boxen.
 github "mou",           "1.0.0"
 github "sequel_pro",    "1.0.0"
+github "iterm2",        "1.0.2"
