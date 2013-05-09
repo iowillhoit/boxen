@@ -33,4 +33,5 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "mou",      "1.0.0"
+github "mou",           "1.0.0"
+github "sequel_pro",    "1.0.0"

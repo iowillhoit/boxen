@@ -74,6 +74,7 @@ node default {
 
   # giadc default apps
   include mou
+  include sequel_pro
 
   # common, useful packages
   package {
