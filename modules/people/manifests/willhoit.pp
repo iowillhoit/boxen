@@ -1,3 +1,3 @@
 class people::willhoit {
-  notify { 'class people::willhoit declared' }
+  #notify { 'class people::willhoit declared' }
 }
