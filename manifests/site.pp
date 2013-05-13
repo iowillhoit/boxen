@@ -73,7 +73,7 @@ node default {
   include ruby::2_0_0
 
   # include the GIADC module
-  include giadc
+  include giadc::environment
 
   # common, useful packages
   package {
