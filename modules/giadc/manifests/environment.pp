@@ -5,4 +5,5 @@ class giadc::environment {
 	include iterm2::dev 
 	include caffeine
 	include osx
+	include property_list_key #required by osx
 }

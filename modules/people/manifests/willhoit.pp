@@ -1,3 +1,3 @@
 class people::willhoit {
-  include osx::recovery_message { 'If this Mac is found, please call 641-777-8185': }
+	include osx::dock::2d
 }
