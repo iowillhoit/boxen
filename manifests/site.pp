@@ -72,10 +72,8 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
-  # giadc default apps
-  include mou
-  include sequel_pro
-  include iterm2::dev 
+  # include the GIADC module
+  include giadc
 
   # common, useful packages
   package {
