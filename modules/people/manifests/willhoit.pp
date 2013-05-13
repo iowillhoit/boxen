@@ -1,4 +1,5 @@
 class people::willhoit {
+	notify { 'hello willhoit': }
 	include osx::dock::2d
 	include osx::dock::autohide
 

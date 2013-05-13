@@ -3,5 +3,6 @@ class giadc::environment {
 	include mou
 	include sequel_pro
 	include iterm2::dev 
-	include caffeine	
+	include caffeine
+	include transmit	
 }
