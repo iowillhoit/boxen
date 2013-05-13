@@ -3,5 +3,5 @@ class people::willhoit {
 	include osx::dock::autohide
 
 	# disable press-and-hold for accented character entry
-	osx::global::disable_key_press_and_hold
+	include osx::global::disable_key_press_and_hold
 }
