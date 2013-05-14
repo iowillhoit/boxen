@@ -15,7 +15,7 @@ class people::willhoit {
 	# the amount of time (in ms) before key repeat 'presses'
 	include osx::global::key_repeat_rate
 	class { 'osx::global::key_repeat_rate':
-		ate => 0
+		rate => 0
 	}
 
 	# shows external hard drives, hard drives, mounted server and removable media on desktop
