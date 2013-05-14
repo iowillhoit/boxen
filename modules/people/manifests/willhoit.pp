@@ -7,10 +7,10 @@ class people::willhoit {
 	include osx::global::disable_key_press_and_hold
 
 	# the amount of time (in ms) before a key starts repeating
-	include osx::global::key_repeat_delay
-	class { 'osx::global::key_repeat_delay':
-		delay => 35
-	}
+	# include osx::global::key_repeat_delay
+	# class { 'osx::global::key_repeat_delay':
+	#	delay => 35
+	# }
 
 	# the amount of time (in ms) before key repeat 'presses'
 	include osx::global::key_repeat_rate
