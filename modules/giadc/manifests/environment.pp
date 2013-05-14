@@ -6,5 +6,7 @@ class giadc::environment {
 	include caffeine
 	include transmit
 	include fluid
-	include mysql	
+	include mysql
+
+	mysql::db { 'richmedia_local': }	
 }
