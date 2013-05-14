@@ -6,6 +6,4 @@ class giadc::environment {
 	include caffeine
 	include transmit
 	include fluid
-	include mysql
-
 }
