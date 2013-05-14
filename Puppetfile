@@ -41,5 +41,5 @@ github "osx",           "1.1.0"
 github "transmit",      "1.0.0"
 github "fluid",         "1.0.0"
 github "mysql",         "1.1.0"
+github "property_list_key", "0.1.0"
 
-mod "property_list_key", "0.1.0",   :github_tarball => "glarizza/puppet-property_list_key"

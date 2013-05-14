@@ -8,5 +8,4 @@ class giadc::environment {
 	include fluid
 	include mysql
 
-	mysql::db { 'richmedia_local': }	
 }
