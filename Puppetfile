@@ -43,3 +43,4 @@ github "fluid",         "1.0.0"
 github "mysql",         "1.1.0"
 github "property_list_key", "0.1.0"
 
+mod "kaleidoscope", "1.0.2", :github_tarball => "oneboxmedia/boxen-kaleidoscope"

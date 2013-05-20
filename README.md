@@ -1,3 +1,55 @@
+# Willhoit Boxen
+
+# **Issues to automate later with Puppet**
+
+## Link to mysql sockets for php
+
+Issue:  
+php.ini file was looking at `/var/mysql/mysql.sock` but the sql socket from boxen was at `/opt/boxen/data/mysql/socket` 
+
+Gathered from:  
+[puppet-mysql issue](https://github.com/boxen/puppet-mysql/issues/16)  
+[install-mysql-on-mountain-lion-with-homebrew](http://madebyhoundstooth.com/blog/install-mysql-on-mountain-lion-with-homebrew/)  
+
+Run: 
+
+```
+sudo mkdir /var/mysql  
+sudo ln -s /opt/boxen/data/mysql/socket /var/mysql/mysql.sock
+```
+
+## Make a copy of php.ini
+
+Issue:  
+One a new mac there is not an active php.ini file. You make a copy from `/etc/php.ini.default`
+
+Run: 
+
+```
+sudo cp /etc/php.ini.default /etc/php.ini
+```
+
+## Had to set date.timezone in php.ini
+
+Issue:  
+php requires you to set your `date.timezone` at `/etc/php.ini`. I used `'America/Chicago'`
+
+Notes:  
+Restart apache `sudo apachectl restart`
+
+## Had to enable php in apache config
+...add notes…
+
+## Add spaces to the dock
+Not sure if this is possible to do only once..  
+...add notes…
+
+## Create link for Subl
+```
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+```
+
+
 # Our Boxen
 
 This is a template Boxen project designed for your organization to fork and
