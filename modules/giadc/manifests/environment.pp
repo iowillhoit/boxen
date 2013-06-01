@@ -7,5 +7,5 @@ class giadc::environment {
 	include transmit
 	include fluid
 	include kaleidoscope
-	include totalfinder
+	#include totalfinder
 }

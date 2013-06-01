@@ -1,10 +1,10 @@
 class people::willhoit {
 	notify { 'hello willhoit': }
-	include osx::dock::2d
-	include osx::dock::autohide
+	# include osx::dock::2d
+	# include osx::dock::autohide
 
 	# disable press-and-hold for accented character entry
-	include osx::global::disable_key_press_and_hold
+	# include osx::global::disable_key_press_and_hold
 
 	# the amount of time (in ms) before a key starts repeating
 	# include osx::global::key_repeat_delay
@@ -19,5 +19,5 @@ class people::willhoit {
 	# }
 
 	# shows external hard drives, hard drives, mounted server and removable media on desktop
-	include osx::finder::show_all_on_desktop
+	# include osx::finder::show_all_on_desktop
 }
