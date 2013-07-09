@@ -18,4 +18,9 @@ class giadc::environment {
 	class { 'php::global':
 	  version => '5.4.10'
 	}
+
+	# Set the global default ruby (auto-installs it if it can)
+	class { 'ruby::global':
+	  version => '1.9.3'
+	}
 }
