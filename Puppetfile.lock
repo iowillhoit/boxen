@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-autoconf
+  specs:
+    autoconf (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (1.2.0)
@@ -44,6 +49,11 @@ GITHUBTARBALL
     iterm2 (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-libtool
+  specs:
+    libtool (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-mou
   specs:
     mou (1.0.0)
@@ -74,6 +84,21 @@ GITHUBTARBALL
     osx (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-pcre
+  specs:
+    pcre (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-php
+  specs:
+    php (0.5.6beta1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-pkgconfig
+  specs:
+    pkgconfig (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-property_list_key
   specs:
     property_list_key (0.1.0)
@@ -99,6 +124,11 @@ GITHUBTARBALL
     transmit (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.0)
+
+GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
@@ -114,6 +144,7 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
+  autoconf (= 1.0.0)
   boxen (= 1.2.0)
   caffeine (= 1.0.0)
   dnsmasq (= 1.0.0)
@@ -125,16 +156,21 @@ DEPENDENCIES
   inifile (= 0.9.0)
   iterm2 (= 1.0.2)
   kaleidoscope (= 1.0.2)
+  libtool (= 1.0.0)
   mou (= 1.0.0)
   mysql (= 1.1.0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
   osx (= 1.1.0)
+  pcre (= 1.0.0)
+  php (= 0.5.6beta1)
+  pkgconfig (= 1.0.0)
   property_list_key (= 0.1.0)
   ruby (= 3.1.0)
   sequel_pro (= 1.0.0)
   stdlib (= 3.0.0)
   sudo (= 1.0.0)
   transmit (= 1.0.0)
+  wget (= 1.0.0)
 

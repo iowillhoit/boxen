@@ -1,5 +1,8 @@
 class people::willhoit {
-	notify { 'hello willhoit': }
+	php::local { '/Users/ewillhoit/dev':
+	  version => '5.4.10'
+	}
+	# notify { 'hello willhoit': }
 	# include osx::dock::2d
 	# include osx::dock::autohide
 

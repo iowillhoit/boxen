@@ -8,4 +8,14 @@ class giadc::environment {
 	include fluid
 	include kaleidoscope
 	#include totalfinder
+	include wget
+	include autoconf
+	include libtool
+	include pkgconfig
+	include pcre
+	include php::5_4
+
+	class { 'php::global':
+	  version => '5.4.10'
+	}
 }
